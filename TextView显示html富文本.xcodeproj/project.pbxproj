@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD35A0EC1D6F1E2D00511B81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35A0EB1D6F1E2D00511B81 /* main.m */; };
+		CD35A0EF1D6F1E2E00511B81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35A0EE1D6F1E2E00511B81 /* AppDelegate.m */; };
+		CD35A0F51D6F1E2E00511B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD35A0F31D6F1E2E00511B81 /* Main.storyboard */; };
+		CD35A0F71D6F1E2E00511B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD35A0F61D6F1E2E00511B81 /* Assets.xcassets */; };
+		CD35A0FA1D6F1E2E00511B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD35A0F81D6F1E2E00511B81 /* LaunchScreen.storyboard */; };
+		CD35A1051D6F1E2E00511B81 /* TextView__html___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35A1041D6F1E2E00511B81 /* TextView__html___Tests.m */; };
+		CD35A1101D6F1E2E00511B81 /* TextView__html___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35A10F1D6F1E2E00511B81 /* TextView__html___UITests.m */; };
+		CD5F034A1D6F241B00DCD726 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F03491D6F241B00DCD726 /* TestViewController.m */; };
+		CD5F034C1D6F24BA00DCD726 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = CD5F034B1D6F24BA00DCD726 /* test.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD35A1011D6F1E2E00511B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD35A0DF1D6F1E2D00511B81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD35A0E61D6F1E2D00511B81;
+			remoteInfo = "TextView显示html富文本";
+		};
+		CD35A10C1D6F1E2E00511B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD35A0DF1D6F1E2D00511B81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD35A0E61D6F1E2D00511B81;
+			remoteInfo = "TextView显示html富文本";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD35A0E71D6F1E2D00511B81 /* TextView显示html富文本.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextView显示html富文本.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35A0EB1D6F1E2D00511B81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD35A0ED1D6F1E2E00511B81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD35A0EE1D6F1E2E00511B81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD35A0F41D6F1E2E00511B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD35A0F61D6F1E2E00511B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD35A0F91D6F1E2E00511B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD35A0FB1D6F1E2E00511B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35A1001D6F1E2E00511B81 /* TextView显示html富文本Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextView显示html富文本Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35A1041D6F1E2E00511B81 /* TextView__html___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextView__html___Tests.m"; sourceTree = "<group>"; };
+		CD35A1061D6F1E2E00511B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35A10B1D6F1E2E00511B81 /* TextView显示html富文本UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextView显示html富文本UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35A10F1D6F1E2E00511B81 /* TextView__html___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextView__html___UITests.m"; sourceTree = "<group>"; };
+		CD35A1111D6F1E2E00511B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5F03481D6F241B00DCD726 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		CD5F03491D6F241B00DCD726 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		CD5F034B1D6F24BA00DCD726 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD35A0E41D6F1E2D00511B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35A0FD1D6F1E2E00511B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35A1081D6F1E2E00511B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD35A0DE1D6F1E2D00511B81 = {
+			isa = PBXGroup;
+			children = (
+				CD35A0E91D6F1E2D00511B81 /* TextView显示html富文本 */,
+				CD35A1031D6F1E2E00511B81 /* TextView显示html富文本Tests */,
+				CD35A10E1D6F1E2E00511B81 /* TextView显示html富文本UITests */,
+				CD35A0E81D6F1E2D00511B81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD35A0E81D6F1E2D00511B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD35A0E71D6F1E2D00511B81 /* TextView显示html富文本.app */,
+				CD35A1001D6F1E2E00511B81 /* TextView显示html富文本Tests.xctest */,
+				CD35A10B1D6F1E2E00511B81 /* TextView显示html富文本UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD35A0E91D6F1E2D00511B81 /* TextView显示html富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				CD35A0ED1D6F1E2E00511B81 /* AppDelegate.h */,
+				CD35A0EE1D6F1E2E00511B81 /* AppDelegate.m */,
+				CD5F03481D6F241B00DCD726 /* TestViewController.h */,
+				CD5F03491D6F241B00DCD726 /* TestViewController.m */,
+				CD5F034B1D6F24BA00DCD726 /* test.html */,
+				CD35A0F31D6F1E2E00511B81 /* Main.storyboard */,
+				CD35A0F61D6F1E2E00511B81 /* Assets.xcassets */,
+				CD35A0F81D6F1E2E00511B81 /* LaunchScreen.storyboard */,
+				CD35A0FB1D6F1E2E00511B81 /* Info.plist */,
+				CD35A0EA1D6F1E2D00511B81 /* Supporting Files */,
+			);
+			path = "TextView显示html富文本";
+			sourceTree = "<group>";
+		};
+		CD35A0EA1D6F1E2D00511B81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD35A0EB1D6F1E2D00511B81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD35A1031D6F1E2E00511B81 /* TextView显示html富文本Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD35A1041D6F1E2E00511B81 /* TextView__html___Tests.m */,
+				CD35A1061D6F1E2E00511B81 /* Info.plist */,
+			);
+			path = "TextView显示html富文本Tests";
+			sourceTree = "<group>";
+		};
+		CD35A10E1D6F1E2E00511B81 /* TextView显示html富文本UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD35A10F1D6F1E2E00511B81 /* TextView__html___UITests.m */,
+				CD35A1111D6F1E2E00511B81 /* Info.plist */,
+			);
+			path = "TextView显示html富文本UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD35A0E61D6F1E2D00511B81 /* TextView显示html富文本 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35A1141D6F1E2E00511B81 /* Build configuration list for PBXNativeTarget "TextView显示html富文本" */;
+			buildPhases = (
+				CD35A0E31D6F1E2D00511B81 /* Sources */,
+				CD35A0E41D6F1E2D00511B81 /* Frameworks */,
+				CD35A0E51D6F1E2D00511B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextView显示html富文本";
+			productName = "TextView显示html富文本";
+			productReference = CD35A0E71D6F1E2D00511B81 /* TextView显示html富文本.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD35A0FF1D6F1E2E00511B81 /* TextView显示html富文本Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35A1171D6F1E2E00511B81 /* Build configuration list for PBXNativeTarget "TextView显示html富文本Tests" */;
+			buildPhases = (
+				CD35A0FC1D6F1E2E00511B81 /* Sources */,
+				CD35A0FD1D6F1E2E00511B81 /* Frameworks */,
+				CD35A0FE1D6F1E2E00511B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD35A1021D6F1E2E00511B81 /* PBXTargetDependency */,
+			);
+			name = "TextView显示html富文本Tests";
+			productName = "TextView显示html富文本Tests";
+			productReference = CD35A1001D6F1E2E00511B81 /* TextView显示html富文本Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD35A10A1D6F1E2E00511B81 /* TextView显示html富文本UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35A11A1D6F1E2E00511B81 /* Build configuration list for PBXNativeTarget "TextView显示html富文本UITests" */;
+			buildPhases = (
+				CD35A1071D6F1E2E00511B81 /* Sources */,
+				CD35A1081D6F1E2E00511B81 /* Frameworks */,
+				CD35A1091D6F1E2E00511B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD35A10D1D6F1E2E00511B81 /* PBXTargetDependency */,
+			);
+			name = "TextView显示html富文本UITests";
+			productName = "TextView显示html富文本UITests";
+			productReference = CD35A10B1D6F1E2E00511B81 /* TextView显示html富文本UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD35A0DF1D6F1E2D00511B81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LYG;
+				TargetAttributes = {
+					CD35A0E61D6F1E2D00511B81 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CD35A0FF1D6F1E2E00511B81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD35A0E61D6F1E2D00511B81;
+					};
+					CD35A10A1D6F1E2E00511B81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD35A0E61D6F1E2D00511B81;
+					};
+				};
+			};
+			buildConfigurationList = CD35A0E21D6F1E2D00511B81 /* Build configuration list for PBXProject "TextView显示html富文本" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD35A0DE1D6F1E2D00511B81;
+			productRefGroup = CD35A0E81D6F1E2D00511B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD35A0E61D6F1E2D00511B81 /* TextView显示html富文本 */,
+				CD35A0FF1D6F1E2E00511B81 /* TextView显示html富文本Tests */,
+				CD35A10A1D6F1E2E00511B81 /* TextView显示html富文本UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD35A0E51D6F1E2D00511B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F034C1D6F24BA00DCD726 /* test.html in Resources */,
+				CD35A0FA1D6F1E2E00511B81 /* LaunchScreen.storyboard in Resources */,
+				CD35A0F71D6F1E2E00511B81 /* Assets.xcassets in Resources */,
+				CD35A0F51D6F1E2E00511B81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35A0FE1D6F1E2E00511B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35A1091D6F1E2E00511B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD35A0E31D6F1E2D00511B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F034A1D6F241B00DCD726 /* TestViewController.m in Sources */,
+				CD35A0EF1D6F1E2E00511B81 /* AppDelegate.m in Sources */,
+				CD35A0EC1D6F1E2D00511B81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35A0FC1D6F1E2E00511B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35A1051D6F1E2E00511B81 /* TextView__html___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35A1071D6F1E2E00511B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35A1101D6F1E2E00511B81 /* TextView__html___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD35A1021D6F1E2E00511B81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD35A0E61D6F1E2D00511B81 /* TextView显示html富文本 */;
+			targetProxy = CD35A1011D6F1E2E00511B81 /* PBXContainerItemProxy */;
+		};
+		CD35A10D1D6F1E2E00511B81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD35A0E61D6F1E2D00511B81 /* TextView显示html富文本 */;
+			targetProxy = CD35A10C1D6F1E2E00511B81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD35A0F31D6F1E2E00511B81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD35A0F41D6F1E2E00511B81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD35A0F81D6F1E2E00511B81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD35A0F91D6F1E2E00511B81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD35A1121D6F1E2E00511B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD35A1131D6F1E2E00511B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD35A1151D6F1E2E00511B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TextView显示html富文本/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuy.TextView--html---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD35A1161D6F1E2E00511B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TextView显示html富文本/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuy.TextView--html---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD35A1181D6F1E2E00511B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TextView显示html富文本Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuy.TextView--html---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextView显示html富文本.app/TextView显示html富文本";
+			};
+			name = Debug;
+		};
+		CD35A1191D6F1E2E00511B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TextView显示html富文本Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuy.TextView--html---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextView显示html富文本.app/TextView显示html富文本";
+			};
+			name = Release;
+		};
+		CD35A11B1D6F1E2E00511B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TextView显示html富文本UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuy.TextView--html---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TextView显示html富文本";
+			};
+			name = Debug;
+		};
+		CD35A11C1D6F1E2E00511B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TextView显示html富文本UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuy.TextView--html---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TextView显示html富文本";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD35A0E21D6F1E2D00511B81 /* Build configuration list for PBXProject "TextView显示html富文本" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35A1121D6F1E2E00511B81 /* Debug */,
+				CD35A1131D6F1E2E00511B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35A1141D6F1E2E00511B81 /* Build configuration list for PBXNativeTarget "TextView显示html富文本" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35A1151D6F1E2E00511B81 /* Debug */,
+				CD35A1161D6F1E2E00511B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35A1171D6F1E2E00511B81 /* Build configuration list for PBXNativeTarget "TextView显示html富文本Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35A1181D6F1E2E00511B81 /* Debug */,
+				CD35A1191D6F1E2E00511B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35A11A1D6F1E2E00511B81 /* Build configuration list for PBXNativeTarget "TextView显示html富文本UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35A11B1D6F1E2E00511B81 /* Debug */,
+				CD35A11C1D6F1E2E00511B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD35A0DF1D6F1E2D00511B81 /* Project object */;
+}
